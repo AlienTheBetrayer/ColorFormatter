@@ -131,7 +131,6 @@ private:
 
 		std::size_t last_ = -1;
 
-		//const std::array<types, sizeof...(Ts)> args = { std::forward<Ts>(format)... };
 		std::array<types, sizeof...(Ts)> args = { std::forward<Ts>(format)... };
 
 		for (const types& v : args) {
