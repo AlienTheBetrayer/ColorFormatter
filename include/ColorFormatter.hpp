@@ -1,4 +1,4 @@
-// v1.0.0
+// v1.0.1
 //
 // ColorFormatter library
 
@@ -28,7 +28,7 @@
 #include <unordered_map>
 
 // All the types variable formatter supports
-using types = std::variant<int16_t, uint16_t, int32_t, long, uint32_t, int64_t, uint64_t, float, std::string, const char*, bool, double>;
+using types = std::variant<int16_t, uint16_t, int32_t, uint32_t, int64_t, uint64_t, float, long, std::string, const char*, bool, double>;
 
 class console {
 public:
